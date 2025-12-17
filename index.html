@@ -1,16 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>CGPA Dean's List Checker</title>
     <link rel="stylesheet" href="style.css">
-   
+
 </head>
-<body>
+
+<body id="body">
 
     <h1>Semester Dean's List Eligibility Results</h1>
 
+    <form name="addStudent">
+        <h3>Add Student Record</h3>
+
+        <b>Student Name : </b>
+        <br>
+        <input id="studName" type="text">
+        <br>
+        <b>Credit Hours : </b>
+        <br>
+
+        <input id="creditHours" type="text">
+        <br>
+        <b>Current GPA : </b>
+        <br>
+        <input id="currentGpa" type="text">
+        <br>
+        <input class="btn" type="button" onclick="addData()" value="Check Eligibility & Add">
+    </form>
+    <h1 id="test">test</h1>
     <script src="script.js"></script>
-    
-    </body>
+
+
+
+<div class='output-box' id="result">
+<h2>Section 03 Result</h2>
+</div>
+
+</body>
+
 </html>
