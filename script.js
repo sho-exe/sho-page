@@ -7,11 +7,6 @@ let test = document.getElementById("test")
 
 let body = document.getElementById("body")
 
-body.innerHTML += '<div>TESTT</div>';
-
-
-test.innerHTML = "tesasdsst";
-
 let studentData = [
     ["Ahmad", 3, 3.5],
     ["Abu", 4, 3.6],
